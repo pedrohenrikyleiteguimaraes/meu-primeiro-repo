@@ -1,0 +1,12 @@
+git config --global user.name pedrohenrikyleiteguimaraes
+git config --global user.email 0000113736015xsp@al.educacao.sp.gov.br
+git config --list
+cd ~/Desktop
+mkdir -p meus-projetos-git
+cd meus-projetos-git
+cd ~/Desktop/meus-projetos-git
+git clone https://github.com/<pedrohenrikyleiteguimaraes>/<meu-primeiro-repo>.git
+cd <meu-primeiro-repo>
+ls -la
+git status
+git log –oneline
